@@ -8,4 +8,4 @@
 	(4) Install some supplimentary softwares according to configure log
 		such as apt-get:
 			gfortran, libblas-dev, liblapack-dev, python-numpy, python-scipy, python-matplotlib, swig3.0(compile and make install)
-	(5) make 
+	(5) make -jN install (N is number of processors)
