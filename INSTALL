@@ -1,0 +1,11 @@
+# This file tells the instruction for using the code
+
+1. Install Trilinos 
+
+	(1) Download the Trilinos repos from the github website
+	(2) Create a another seperate dir for build and Installation
+	(3) Use the ubuntu-gcc-482-openmpi-cmake as the configure file
+	(4) Install some supplimentary softwares according to configure log
+		such as apt-get:
+			gfortran, libblas-dev, liblapack-dev, python-numpy, python-scipy, python-matplotlib, swig3.0(compile and make install)
+	(5) make 
